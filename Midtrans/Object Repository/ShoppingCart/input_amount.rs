@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_amount</name>
+   <tag></tag>
+   <elementGuidId>a5e03c6b-3b84-461f-a8e0-dd4d5793056b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[@data-reactid='.0.0.1.0.1.0.1.0:$1.2']/input[@class='text-right']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//td[@data-reactid='.0.0.1.0.1.0.1.0:$1.2']/input[@class='text-right']</value>
+   </webElementProperties>
+</WebElementEntity>
