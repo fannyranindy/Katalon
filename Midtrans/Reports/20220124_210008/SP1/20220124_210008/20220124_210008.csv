@@ -1,0 +1,129 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SP1,Chrome 97.0.4692.99,,,2022-01-24 21:00:18,2022-01-24 21:02:18,2m - 0.265s,PASSED
+,,,,,,,
+Test Cases/TC01,Chrome 97.0.4692.99,,,2022-01-24 21:00:19,2022-01-24 21:00:25,5.564s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-01-24 21:00:20,2022-01-24 21:00:23,2.945s,PASSED
+"navigateToUrl(""demo.midtrans.com"")",Chrome 97.0.4692.99,,,2022-01-24 21:00:23,2022-01-24 21:00:24,1.249s,PASSED
+"click(findTestObject(""Home/button_next""))",Chrome 97.0.4692.99,,,2022-01-24 21:00:24,2022-01-24 21:00:25,0.692s,PASSED
+,,,,,,,
+Test Cases/TC02,Chrome 97.0.4692.99,,,2022-01-24 21:00:25,2022-01-24 21:00:30,4.832s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-01-24 21:00:26,2022-01-24 21:00:28,2.090s,PASSED
+"navigateToUrl(""demo.midtrans.com"")",Chrome 97.0.4692.99,,,2022-01-24 21:00:28,2022-01-24 21:00:29,1.423s,PASSED
+"click(findTestObject(""Home/button_buynow""), STOP_ON_FAILURE)",Chrome 97.0.4692.99,,,2022-01-24 21:00:29,2022-01-24 21:00:30,0.610s,PASSED
+,,,,,,,
+Test Cases/TC03,Chrome 97.0.4692.99,,,2022-01-24 21:00:30,2022-01-24 21:00:36,6.337s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-01-24 21:00:30,2022-01-24 21:00:32,1.937s,PASSED
+"navigateToUrl(""demo.midtrans.com"")",Chrome 97.0.4692.99,,,2022-01-24 21:00:32,2022-01-24 21:00:34,1.629s,PASSED
+"click(findTestObject(""Home/button_buynow""))",Chrome 97.0.4692.99,,,2022-01-24 21:00:34,2022-01-24 21:00:35,0.807s,PASSED
+"click(findTestObject(""ShoppingCart/button_cancel""))",Chrome 97.0.4692.99,,,2022-01-24 21:00:35,2022-01-24 21:00:35,0.582s,PASSED
+closeBrowser(),Chrome 97.0.4692.99,,,2022-01-24 21:00:35,2022-01-24 21:00:36,0.655s,PASSED
+,,,,,,,
+Test Cases/TC04,Chrome 97.0.4692.99,,,2022-01-24 21:00:36,2022-01-24 21:00:42,5.610s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-01-24 21:00:37,2022-01-24 21:00:38,1.455s,PASSED
+"navigateToUrl(""demo.midtrans.com"")",Chrome 97.0.4692.99,,,2022-01-24 21:00:38,2022-01-24 21:00:40,1.502s,PASSED
+"click(findTestObject(""Home/button_buynow""))",Chrome 97.0.4692.99,,,2022-01-24 21:00:40,2022-01-24 21:00:40,0.604s,PASSED
+"setText(findTestObject(""ShoppingCart/input_amount""), ""120000"")",Chrome 97.0.4692.99,,,2022-01-24 21:00:40,2022-01-24 21:00:41,0.926s,PASSED
+"click(findTestObject(""ShoppingCart/button_checkout""))",Chrome 97.0.4692.99,,,2022-01-24 21:00:41,2022-01-24 21:00:42,0.627s,PASSED
+,,,,,,,
+Test Cases/TC05,Chrome 97.0.4692.99,,,2022-01-24 21:00:42,2022-01-24 21:00:53,11.104s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-01-24 21:00:42,2022-01-24 21:00:44,1.969s,PASSED
+"navigateToUrl(""demo.midtrans.com"")",Chrome 97.0.4692.99,,,2022-01-24 21:00:44,2022-01-24 21:00:45,1.090s,PASSED
+"click(findTestObject(""Home/button_buynow""))",Chrome 97.0.4692.99,,,2022-01-24 21:00:45,2022-01-24 21:00:46,0.627s,PASSED
+"setText(findTestObject(""ShoppingCart/input_amount""), ""120000"")",Chrome 97.0.4692.99,,,2022-01-24 21:00:46,2022-01-24 21:00:47,0.981s,PASSED
+"setText(findTestObject(""ShoppingCart/input_username""), ""Fanny"")",Chrome 97.0.4692.99,,,2022-01-24 21:00:47,2022-01-24 21:00:48,0.952s,PASSED
+"setText(findTestObject(""ShoppingCart/input_email""), ""anindy99@gmail.com"")",Chrome 97.0.4692.99,,,2022-01-24 21:00:48,2022-01-24 21:00:49,0.906s,PASSED
+"setText(findTestObject(""ShoppingCart/input_notlp""), ""087875751882"")",Chrome 97.0.4692.99,,,2022-01-24 21:00:49,2022-01-24 21:00:50,1.072s,PASSED
+"setText(findTestObject(""ShoppingCart/input_city""), ""Jakarta Selatan"")",Chrome 97.0.4692.99,,,2022-01-24 21:00:50,2022-01-24 21:00:51,0.856s,PASSED
+"setText(findTestObject(""ShoppingCart/input_address""), ""Jl. Damai 1"")",Chrome 97.0.4692.99,,,2022-01-24 21:00:51,2022-01-24 21:00:52,0.864s,PASSED
+"setText(findTestObject(""ShoppingCart/input_kodepos""), ""12270"")",Chrome 97.0.4692.99,,,2022-01-24 21:00:52,2022-01-24 21:00:52,0.797s,PASSED
+"click(findTestObject(""ShoppingCart/button_checkout""), STOP_ON_FAILURE)",Chrome 97.0.4692.99,,,2022-01-24 21:00:52,2022-01-24 21:00:53,0.470s,PASSED
+,,,,,,,
+Test Cases/TC06,Chrome 97.0.4692.99,,,2022-01-24 21:00:53,2022-01-24 21:01:07,14.153s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-01-24 21:00:53,2022-01-24 21:00:56,2.438s,PASSED
+"navigateToUrl(""demo.midtrans.com"")",Chrome 97.0.4692.99,,,2022-01-24 21:00:56,2022-01-24 21:00:57,0.981s,PASSED
+"click(findTestObject(""Home/button_buynow""))",Chrome 97.0.4692.99,,,2022-01-24 21:00:57,2022-01-24 21:00:57,0.597s,PASSED
+"setText(findTestObject(""ShoppingCart/input_amount""), ""120000"")",Chrome 97.0.4692.99,,,2022-01-24 21:00:57,2022-01-24 21:00:58,0.982s,PASSED
+"setText(findTestObject(""ShoppingCart/input_username""), ""Fanny"")",Chrome 97.0.4692.99,,,2022-01-24 21:00:58,2022-01-24 21:00:59,1.018s,PASSED
+"setText(findTestObject(""ShoppingCart/input_email""), ""anindy99@gmail.com"")",Chrome 97.0.4692.99,,,2022-01-24 21:00:59,2022-01-24 21:01:00,0.947s,PASSED
+"setText(findTestObject(""ShoppingCart/input_notlp""), ""087875751882"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:00,2022-01-24 21:01:02,1.158s,PASSED
+"setText(findTestObject(""ShoppingCart/input_city""), ""Jakarta Selatan"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:02,2022-01-24 21:01:02,0.985s,PASSED
+"setText(findTestObject(""ShoppingCart/input_address""), ""Jl. Damai 1"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:02,2022-01-24 21:01:03,0.834s,PASSED
+"setText(findTestObject(""ShoppingCart/input_kodepos""), ""12270"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:03,2022-01-24 21:01:04,0.812s,PASSED
+"click(findTestObject(""ShoppingCart/button_checkout""))",Chrome 97.0.4692.99,,,2022-01-24 21:01:04,2022-01-24 21:01:05,0.464s,PASSED
+"click(findTestObject(""Ordersummary/button_continue""))",Chrome 97.0.4692.99,,,2022-01-24 21:01:05,2022-01-24 21:01:06,1.585s,PASSED
+"click(findTestObject(""Ordersummary/select_payment""))",Chrome 97.0.4692.99,,,2022-01-24 21:01:06,2022-01-24 21:01:07,0.812s,PASSED
+,,,,,,,
+Test Cases/TC07,Chrome 97.0.4692.99,,,2022-01-24 21:01:07,2022-01-24 21:01:21,14.148s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-01-24 21:01:08,2022-01-24 21:01:10,2.041s,PASSED
+"navigateToUrl(""demo.midtrans.com"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:10,2022-01-24 21:01:11,1.238s,PASSED
+"click(findTestObject(""Home/button_buynow""))",Chrome 97.0.4692.99,,,2022-01-24 21:01:11,2022-01-24 21:01:12,0.667s,PASSED
+"setText(findTestObject(""ShoppingCart/input_amount""), ""120000"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:12,2022-01-24 21:01:12,0.987s,PASSED
+"setText(findTestObject(""ShoppingCart/input_username""), ""Fanny"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:12,2022-01-24 21:01:13,0.927s,PASSED
+"setText(findTestObject(""ShoppingCart/input_email""), ""anindy99@gmail.com"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:13,2022-01-24 21:01:14,0.956s,PASSED
+"setText(findTestObject(""ShoppingCart/input_notlp""), ""087875751882"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:14,2022-01-24 21:01:15,1.069s,PASSED
+"setText(findTestObject(""ShoppingCart/input_city""), ""Jakarta Selatan"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:15,2022-01-24 21:01:16,0.927s,PASSED
+"setText(findTestObject(""ShoppingCart/input_address""), ""Jl. Damai 1"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:16,2022-01-24 21:01:17,0.843s,PASSED
+"setText(findTestObject(""ShoppingCart/input_kodepos""), ""12270"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:17,2022-01-24 21:01:18,0.825s,PASSED
+"click(findTestObject(""ShoppingCart/button_checkout""))",Chrome 97.0.4692.99,,,2022-01-24 21:01:18,2022-01-24 21:01:19,0.459s,PASSED
+"click(findTestObject(""Ordersummary/button_continue""))",Chrome 97.0.4692.99,,,2022-01-24 21:01:19,2022-01-24 21:01:20,1.792s,PASSED
+"click(findTestObject(""Ordersummary/select_payment""))",Chrome 97.0.4692.99,,,2022-01-24 21:01:20,2022-01-24 21:01:21,0.857s,PASSED
+,,,,,,,
+Test Cases/TC08,Chrome 97.0.4692.99,,,2022-01-24 21:01:21,2022-01-24 21:01:38,17.122s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-01-24 21:01:22,2022-01-24 21:01:24,2.112s,PASSED
+"navigateToUrl(""demo.midtrans.com"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:24,2022-01-24 21:01:25,1.232s,PASSED
+"click(findTestObject(""Home/button_buynow""))",Chrome 97.0.4692.99,,,2022-01-24 21:01:25,2022-01-24 21:01:26,0.609s,PASSED
+"setText(findTestObject(""ShoppingCart/input_amount""), ""120000"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:26,2022-01-24 21:01:27,0.977s,PASSED
+"setText(findTestObject(""ShoppingCart/input_username""), ""Fanny"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:27,2022-01-24 21:01:28,0.918s,PASSED
+"setText(findTestObject(""ShoppingCart/input_email""), ""anindy99@gmail.com"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:28,2022-01-24 21:01:29,0.846s,PASSED
+"setText(findTestObject(""ShoppingCart/input_notlp""), ""087875751882"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:29,2022-01-24 21:01:29,0.834s,PASSED
+"setText(findTestObject(""ShoppingCart/input_city""), ""Jakarta Selatan"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:29,2022-01-24 21:01:30,1.067s,PASSED
+"setText(findTestObject(""ShoppingCart/input_address""), ""Jl. Damai 1"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:30,2022-01-24 21:01:31,0.837s,PASSED
+"setText(findTestObject(""ShoppingCart/input_kodepos""), ""12270"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:31,2022-01-24 21:01:32,0.864s,PASSED
+"click(findTestObject(""ShoppingCart/button_checkout""))",Chrome 97.0.4692.99,,,2022-01-24 21:01:32,2022-01-24 21:01:33,0.486s,PASSED
+"click(findTestObject(""Ordersummary/button_continue""))",Chrome 97.0.4692.99,,,2022-01-24 21:01:33,2022-01-24 21:01:34,1.660s,PASSED
+"click(findTestObject(""Ordersummary/select_payment""))",Chrome 97.0.4692.99,,,2022-01-24 21:01:34,2022-01-24 21:01:35,0.824s,PASSED
+"setText(findTestObject(""Ordersummary/input_cardnumber""), ""4811 1111 1111 1114"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:35,2022-01-24 21:01:36,1.013s,PASSED
+"setText(findTestObject(""Ordersummary/input_expireddate""), ""01/25"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:36,2022-01-24 21:01:37,0.763s,PASSED
+"setText(findTestObject(""Ordersummary/input_cvv""), ""123"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:37,2022-01-24 21:01:38,0.718s,PASSED
+"click(findTestObject(""Ordersummary/pay_now""), STOP_ON_FAILURE)",Chrome 97.0.4692.99,,,2022-01-24 21:01:38,2022-01-24 21:01:38,0.653s,PASSED
+,,,,,,,
+Test Cases/TC09,Chrome 97.0.4692.99,,,2022-01-24 21:01:38,2022-01-24 21:01:58,19.516s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-01-24 21:01:39,2022-01-24 21:01:41,2.044s,PASSED
+"navigateToUrl(""demo.midtrans.com"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:41,2022-01-24 21:01:42,1.212s,PASSED
+"click(findTestObject(""Home/button_buynow""))",Chrome 97.0.4692.99,,,2022-01-24 21:01:42,2022-01-24 21:01:43,0.677s,PASSED
+"setText(findTestObject(""ShoppingCart/input_amount""), ""120000"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:43,2022-01-24 21:01:44,0.969s,PASSED
+"setText(findTestObject(""ShoppingCart/input_username""), ""Fanny"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:44,2022-01-24 21:01:45,0.934s,PASSED
+"setText(findTestObject(""ShoppingCart/input_email""), ""anindy99@gmail.com"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:45,2022-01-24 21:01:46,0.861s,PASSED
+"setText(findTestObject(""ShoppingCart/input_notlp""), ""087875751882"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:46,2022-01-24 21:01:47,1.009s,PASSED
+"setText(findTestObject(""ShoppingCart/input_city""), ""Jakarta Selatan"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:47,2022-01-24 21:01:47,0.878s,PASSED
+"setText(findTestObject(""ShoppingCart/input_address""), ""Jl. Damai 1"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:47,2022-01-24 21:01:48,0.809s,PASSED
+"setText(findTestObject(""ShoppingCart/input_kodepos""), ""12270"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:48,2022-01-24 21:01:49,0.823s,PASSED
+"click(findTestObject(""ShoppingCart/button_checkout""))",Chrome 97.0.4692.99,,,2022-01-24 21:01:49,2022-01-24 21:01:50,0.503s,PASSED
+"click(findTestObject(""Ordersummary/button_continue""))",Chrome 97.0.4692.99,,,2022-01-24 21:01:50,2022-01-24 21:01:51,1.563s,PASSED
+"click(findTestObject(""Ordersummary/select_payment""))",Chrome 97.0.4692.99,,,2022-01-24 21:01:51,2022-01-24 21:01:52,0.801s,PASSED
+"setText(findTestObject(""Ordersummary/input_cardnumber""), ""4811 1111 1111 1114"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:52,2022-01-24 21:01:53,0.950s,PASSED
+"setText(findTestObject(""Ordersummary/input_expireddate""), ""01/25"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:53,2022-01-24 21:01:54,0.817s,PASSED
+"setText(findTestObject(""Ordersummary/input_cvv""), ""123"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:54,2022-01-24 21:01:54,0.729s,PASSED
+"click(findTestObject(""Ordersummary/pay_now""), STOP_ON_FAILURE)",Chrome 97.0.4692.99,,,2022-01-24 21:01:54,2022-01-24 21:01:55,0.662s,PASSED
+"setText(findTestObject(""Ordersummary/input_password""), ""112233"")",Chrome 97.0.4692.99,,,2022-01-24 21:01:55,2022-01-24 21:01:58,2.713s,PASSED
+,,,,,,,
+Test Cases/TC10,Chrome 97.0.4692.99,,,2022-01-24 21:01:58,2022-01-24 21:02:18,20.273s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-01-24 21:01:58,2022-01-24 21:02:00,1.995s,PASSED
+"navigateToUrl(""demo.midtrans.com"")",Chrome 97.0.4692.99,,,2022-01-24 21:02:00,2022-01-24 21:02:02,1.358s,PASSED
+"click(findTestObject(""Home/button_buynow""))",Chrome 97.0.4692.99,,,2022-01-24 21:02:02,2022-01-24 21:02:02,0.586s,PASSED
+"setText(findTestObject(""ShoppingCart/input_amount""), ""120000"")",Chrome 97.0.4692.99,,,2022-01-24 21:02:02,2022-01-24 21:02:03,0.982s,PASSED
+"setText(findTestObject(""ShoppingCart/input_username""), ""Fanny"")",Chrome 97.0.4692.99,,,2022-01-24 21:02:03,2022-01-24 21:02:04,0.914s,PASSED
+"setText(findTestObject(""ShoppingCart/input_email""), ""anindy99@gmail.com"")",Chrome 97.0.4692.99,,,2022-01-24 21:02:04,2022-01-24 21:02:05,0.853s,PASSED
+"setText(findTestObject(""ShoppingCart/input_notlp""), ""087875751882"")",Chrome 97.0.4692.99,,,2022-01-24 21:02:05,2022-01-24 21:02:06,0.821s,PASSED
+"setText(findTestObject(""ShoppingCart/input_city""), ""Jakarta Selatan"")",Chrome 97.0.4692.99,,,2022-01-24 21:02:06,2022-01-24 21:02:07,0.999s,PASSED
+"setText(findTestObject(""ShoppingCart/input_address""), ""Jl. Damai 1"")",Chrome 97.0.4692.99,,,2022-01-24 21:02:07,2022-01-24 21:02:08,0.816s,PASSED
+"setText(findTestObject(""ShoppingCart/input_kodepos""), ""12270"")",Chrome 97.0.4692.99,,,2022-01-24 21:02:08,2022-01-24 21:02:09,0.814s,PASSED
+"click(findTestObject(""ShoppingCart/button_checkout""))",Chrome 97.0.4692.99,,,2022-01-24 21:02:09,2022-01-24 21:02:09,0.462s,PASSED
+"click(findTestObject(""Ordersummary/button_continue""))",Chrome 97.0.4692.99,,,2022-01-24 21:02:09,2022-01-24 21:02:11,1.466s,PASSED
+"click(findTestObject(""Ordersummary/select_payment""))",Chrome 97.0.4692.99,,,2022-01-24 21:02:11,2022-01-24 21:02:11,0.776s,PASSED
+"setText(findTestObject(""Ordersummary/input_cardnumber""), ""4811 1111 1111 1114"")",Chrome 97.0.4692.99,,,2022-01-24 21:02:11,2022-01-24 21:02:12,0.998s,PASSED
+"setText(findTestObject(""Ordersummary/input_expireddate""), ""01/25"")",Chrome 97.0.4692.99,,,2022-01-24 21:02:12,2022-01-24 21:02:13,0.788s,PASSED
+"setText(findTestObject(""Ordersummary/input_cvv""), ""123"")",Chrome 97.0.4692.99,,,2022-01-24 21:02:13,2022-01-24 21:02:14,0.767s,PASSED
+"click(findTestObject(""Ordersummary/pay_now""), STOP_ON_FAILURE)",Chrome 97.0.4692.99,,,2022-01-24 21:02:14,2022-01-24 21:02:15,0.671s,PASSED
+"setText(findTestObject(""Ordersummary/input_password""), ""112233"")",Chrome 97.0.4692.99,,,2022-01-24 21:02:15,2022-01-24 21:02:17,2.009s,PASSED
+"click(findTestObject(""Ordersummary/button_ok""))",Chrome 97.0.4692.99,,,2022-01-24 21:02:17,2022-01-24 21:02:18,1.523s,PASSED

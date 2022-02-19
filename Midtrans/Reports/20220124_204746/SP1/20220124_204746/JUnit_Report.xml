@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SP1" time="80.351" tests="8" failures="0" skips="0" errors="0">
+   <testsuite name="SP1" tests="8" failures="0" errors="0" time="80.351" skips="0" timestamp="2022-01-24 20:47:56" hostname="Fanny Restu Anindi - 192.168.0.7" id="Test Suites/SP1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Fanny Restu Anindi\\Katalon Studio\\Midtrans\\Reports\\20220124_204746\\SP1\\20220124_204746"/>
+         <property name="logFiles" value="C:\\Users\\Fanny Restu Anindi\\Katalon Studio\\Midtrans\\Reports\\20220124_204746\\SP1\\20220124_204746\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Fanny Restu Anindi - 192.168.0.7"/>
+         <property name="os" value="Windows 10 32bit"/>
+         <property name="katalonVersion" value="7.8.2.208"/>
+         <property name="browser" value="Chrome 97.0.4692.99"/>
+         <property name="hostAddress" value="192.168.0.7"/>
+         <property name="sessionId" value="c1cc257b9a5ee7f0cd0633251a2f644f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC01" time="5.515" classname="Test Cases/TC01" status="PASSED">
+         <system-out><![CDATA[2022-01-24 20:47:58 - [TEST_CASE][PASSED] - Test Cases/TC01: Test Cases/TC01
+
+2022-01-24 20:47:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-24 20:47:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-24 20:47:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-24 20:48:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-24 20:48:01 - [TEST_STEP][PASSED] - navigateToUrl("demo.midtrans.com"): Navigate to 'http://demo.midtrans.com' successfully
+
+2022-01-24 20:48:02 - [MESSAGE][PASSED] - Navigate to 'http://demo.midtrans.com' successfully
+
+2022-01-24 20:48:02 - [TEST_STEP][PASSED] - click(findTestObject("Home/button_next")): Object: 'Object Repository/Home/button_next' is clicked on
+
+2022-01-24 20:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/button_next' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02" time="4.559" classname="Test Cases/TC02" status="PASSED">
+         <system-out><![CDATA[2022-01-24 20:48:03 - [TEST_CASE][PASSED] - Test Cases/TC02: Test Cases/TC02
+
+2022-01-24 20:48:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-24 20:48:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-24 20:48:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-24 20:48:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-24 20:48:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-24 20:48:06 - [TEST_STEP][PASSED] - navigateToUrl("demo.midtrans.com"): Navigate to 'http://demo.midtrans.com' successfully
+
+2022-01-24 20:48:07 - [MESSAGE][PASSED] - Navigate to 'http://demo.midtrans.com' successfully
+
+2022-01-24 20:48:07 - [TEST_STEP][PASSED] - click(findTestObject("Home/button_buynow"), STOP_ON_FAILURE): Object: 'Object Repository/Home/button_buynow' is clicked on
+
+2022-01-24 20:48:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/button_buynow' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03" time="5.758" classname="Test Cases/TC03" status="PASSED">
+         <system-out><![CDATA[2022-01-24 20:48:08 - [TEST_CASE][PASSED] - Test Cases/TC03: Test Cases/TC03
+
+2022-01-24 20:48:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-24 20:48:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-24 20:48:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-24 20:48:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-24 20:48:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-24 20:48:10 - [TEST_STEP][PASSED] - navigateToUrl("demo.midtrans.com"): Navigate to 'http://demo.midtrans.com' successfully
+
+2022-01-24 20:48:12 - [MESSAGE][PASSED] - Navigate to 'http://demo.midtrans.com' successfully
+
+2022-01-24 20:48:12 - [TEST_STEP][PASSED] - click(findTestObject("Home/button_buynow")): Object: 'Object Repository/Home/button_buynow' is clicked on
+
+2022-01-24 20:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/button_buynow' is clicked on
+
+2022-01-24 20:48:12 - [TEST_STEP][PASSED] - click(findTestObject("ShoppingCart/button_cancel")): Object: 'Object Repository/ShoppingCart/button_cancel' is clicked on
+
+2022-01-24 20:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ShoppingCart/button_cancel' is clicked on
+
+2022-01-24 20:48:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-24 20:48:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04" time="5.161" classname="Test Cases/TC04" status="PASSED">
+         <system-out><![CDATA[2022-01-24 20:48:13 - [TEST_CASE][PASSED] - Test Cases/TC04: Test Cases/TC04
+
+2022-01-24 20:48:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-24 20:48:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-24 20:48:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-24 20:48:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-24 20:48:15 - [TEST_STEP][PASSED] - navigateToUrl("demo.midtrans.com"): Navigate to 'http://demo.midtrans.com' successfully
+
+2022-01-24 20:48:16 - [MESSAGE][PASSED] - Navigate to 'http://demo.midtrans.com' successfully
+
+2022-01-24 20:48:16 - [TEST_STEP][PASSED] - click(findTestObject("Home/button_buynow")): Object: 'Object Repository/Home/button_buynow' is clicked on
+
+2022-01-24 20:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/button_buynow' is clicked on
+
+2022-01-24 20:48:17 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_amount"), "120000"): Text '120000' is set on object 'Object Repository/ShoppingCart/input_amount'
+
+2022-01-24 20:48:18 - [MESSAGE][PASSED] - Text '120000' is set on object 'Object Repository/ShoppingCart/input_amount'
+
+2022-01-24 20:48:18 - [TEST_STEP][PASSED] - click(findTestObject("ShoppingCart/button_checkout")): Object: 'Object Repository/ShoppingCart/button_checkout' is clicked on
+
+2022-01-24 20:48:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ShoppingCart/button_checkout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC05" time="11.49" classname="Test Cases/TC05" status="PASSED">
+         <system-out><![CDATA[2022-01-24 20:48:19 - [TEST_CASE][PASSED] - Test Cases/TC05: Test Cases/TC05
+
+2022-01-24 20:48:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-24 20:48:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-24 20:48:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-24 20:48:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-24 20:48:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-24 20:48:21 - [TEST_STEP][PASSED] - navigateToUrl("demo.midtrans.com"): Navigate to 'http://demo.midtrans.com' successfully
+
+2022-01-24 20:48:23 - [MESSAGE][PASSED] - Navigate to 'http://demo.midtrans.com' successfully
+
+2022-01-24 20:48:23 - [TEST_STEP][PASSED] - click(findTestObject("Home/button_buynow")): Object: 'Object Repository/Home/button_buynow' is clicked on
+
+2022-01-24 20:48:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/button_buynow' is clicked on
+
+2022-01-24 20:48:23 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_amount"), "120000"): Text '120000' is set on object 'Object Repository/ShoppingCart/input_amount'
+
+2022-01-24 20:48:24 - [MESSAGE][PASSED] - Text '120000' is set on object 'Object Repository/ShoppingCart/input_amount'
+
+2022-01-24 20:48:24 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_username"), "Fanny"): Text 'Fanny' is set on object 'Object Repository/ShoppingCart/input_username'
+
+2022-01-24 20:48:25 - [MESSAGE][PASSED] - Text 'Fanny' is set on object 'Object Repository/ShoppingCart/input_username'
+
+2022-01-24 20:48:25 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_email"), "anindy99@gmail.com"): Text 'anindy99@gmail.com' is set on object 'Object Repository/ShoppingCart/input_email'
+
+2022-01-24 20:48:26 - [MESSAGE][PASSED] - Text 'anindy99@gmail.com' is set on object 'Object Repository/ShoppingCart/input_email'
+
+2022-01-24 20:48:26 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_notlp"), "087875751882"): Text '087875751882' is set on object 'Object Repository/ShoppingCart/input_notlp'
+
+2022-01-24 20:48:27 - [MESSAGE][PASSED] - Text '087875751882' is set on object 'Object Repository/ShoppingCart/input_notlp'
+
+2022-01-24 20:48:27 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_city"), "Jakarta Selatan"): Text 'Jakarta Selatan' is set on object 'Object Repository/ShoppingCart/input_city'
+
+2022-01-24 20:48:28 - [MESSAGE][PASSED] - Text 'Jakarta Selatan' is set on object 'Object Repository/ShoppingCart/input_city'
+
+2022-01-24 20:48:28 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_address"), "Jl. Damai 1"): Text 'Jl. Damai 1' is set on object 'Object Repository/ShoppingCart/input_address'
+
+2022-01-24 20:48:29 - [MESSAGE][PASSED] - Text 'Jl. Damai 1' is set on object 'Object Repository/ShoppingCart/input_address'
+
+2022-01-24 20:48:29 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_kodepos"), "12270"): Text '12270' is set on object 'Object Repository/ShoppingCart/input_kodepos'
+
+2022-01-24 20:48:30 - [MESSAGE][PASSED] - Text '12270' is set on object 'Object Repository/ShoppingCart/input_kodepos'
+
+2022-01-24 20:48:30 - [TEST_STEP][PASSED] - click(findTestObject("ShoppingCart/button_checkout"), STOP_ON_FAILURE): Object: 'Object Repository/ShoppingCart/button_checkout' is clicked on
+
+2022-01-24 20:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ShoppingCart/button_checkout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC06" time="14.167" classname="Test Cases/TC06" status="PASSED">
+         <system-out><![CDATA[2022-01-24 20:48:30 - [TEST_CASE][PASSED] - Test Cases/TC06: Test Cases/TC06
+
+2022-01-24 20:48:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-24 20:48:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-24 20:48:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-24 20:48:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-24 20:48:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-24 20:48:33 - [TEST_STEP][PASSED] - navigateToUrl("demo.midtrans.com"): Navigate to 'http://demo.midtrans.com' successfully
+
+2022-01-24 20:48:34 - [MESSAGE][PASSED] - Navigate to 'http://demo.midtrans.com' successfully
+
+2022-01-24 20:48:34 - [TEST_STEP][PASSED] - click(findTestObject("Home/button_buynow")): Object: 'Object Repository/Home/button_buynow' is clicked on
+
+2022-01-24 20:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/button_buynow' is clicked on
+
+2022-01-24 20:48:35 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_amount"), "120000"): Text '120000' is set on object 'Object Repository/ShoppingCart/input_amount'
+
+2022-01-24 20:48:36 - [MESSAGE][PASSED] - Text '120000' is set on object 'Object Repository/ShoppingCart/input_amount'
+
+2022-01-24 20:48:36 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_username"), "Fanny"): Text 'Fanny' is set on object 'Object Repository/ShoppingCart/input_username'
+
+2022-01-24 20:48:37 - [MESSAGE][PASSED] - Text 'Fanny' is set on object 'Object Repository/ShoppingCart/input_username'
+
+2022-01-24 20:48:37 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_email"), "anindy99@gmail.com"): Text 'anindy99@gmail.com' is set on object 'Object Repository/ShoppingCart/input_email'
+
+2022-01-24 20:48:37 - [MESSAGE][PASSED] - Text 'anindy99@gmail.com' is set on object 'Object Repository/ShoppingCart/input_email'
+
+2022-01-24 20:48:37 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_notlp"), "087875751882"): Text '087875751882' is set on object 'Object Repository/ShoppingCart/input_notlp'
+
+2022-01-24 20:48:39 - [MESSAGE][PASSED] - Text '087875751882' is set on object 'Object Repository/ShoppingCart/input_notlp'
+
+2022-01-24 20:48:39 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_city"), "Jakarta Selatan"): Text 'Jakarta Selatan' is set on object 'Object Repository/ShoppingCart/input_city'
+
+2022-01-24 20:48:39 - [MESSAGE][PASSED] - Text 'Jakarta Selatan' is set on object 'Object Repository/ShoppingCart/input_city'
+
+2022-01-24 20:48:39 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_address"), "Jl. Damai 1"): Text 'Jl. Damai 1' is set on object 'Object Repository/ShoppingCart/input_address'
+
+2022-01-24 20:48:40 - [MESSAGE][PASSED] - Text 'Jl. Damai 1' is set on object 'Object Repository/ShoppingCart/input_address'
+
+2022-01-24 20:48:40 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_kodepos"), "12270"): Text '12270' is set on object 'Object Repository/ShoppingCart/input_kodepos'
+
+2022-01-24 20:48:41 - [MESSAGE][PASSED] - Text '12270' is set on object 'Object Repository/ShoppingCart/input_kodepos'
+
+2022-01-24 20:48:41 - [TEST_STEP][PASSED] - click(findTestObject("ShoppingCart/button_checkout")): Object: 'Object Repository/ShoppingCart/button_checkout' is clicked on
+
+2022-01-24 20:48:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ShoppingCart/button_checkout' is clicked on
+
+2022-01-24 20:48:42 - [TEST_STEP][PASSED] - click(findTestObject("Ordersummary/button_continue")): Object: 'Object Repository/Ordersummary/button_continue' is clicked on
+
+2022-01-24 20:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Ordersummary/button_continue' is clicked on
+
+2022-01-24 20:48:43 - [TEST_STEP][PASSED] - click(findTestObject("Ordersummary/select_payment")): Object: 'Object Repository/Ordersummary/select_payment' is clicked on
+
+2022-01-24 20:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Ordersummary/select_payment' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC07" time="13.776" classname="Test Cases/TC07" status="PASSED">
+         <system-out><![CDATA[2022-01-24 20:48:44 - [TEST_CASE][PASSED] - Test Cases/TC07: Test Cases/TC07
+
+2022-01-24 20:48:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-24 20:48:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-24 20:48:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-24 20:48:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-24 20:48:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-24 20:48:47 - [TEST_STEP][PASSED] - navigateToUrl("demo.midtrans.com"): Navigate to 'http://demo.midtrans.com' successfully
+
+2022-01-24 20:48:48 - [MESSAGE][PASSED] - Navigate to 'http://demo.midtrans.com' successfully
+
+2022-01-24 20:48:48 - [TEST_STEP][PASSED] - click(findTestObject("Home/button_buynow")): Object: 'Object Repository/Home/button_buynow' is clicked on
+
+2022-01-24 20:48:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/button_buynow' is clicked on
+
+2022-01-24 20:48:49 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_amount"), "120000"): Text '120000' is set on object 'Object Repository/ShoppingCart/input_amount'
+
+2022-01-24 20:48:50 - [MESSAGE][PASSED] - Text '120000' is set on object 'Object Repository/ShoppingCart/input_amount'
+
+2022-01-24 20:48:50 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_username"), "Fanny"): Text 'Fanny' is set on object 'Object Repository/ShoppingCart/input_username'
+
+2022-01-24 20:48:51 - [MESSAGE][PASSED] - Text 'Fanny' is set on object 'Object Repository/ShoppingCart/input_username'
+
+2022-01-24 20:48:51 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_email"), "anindy99@gmail.com"): Text 'anindy99@gmail.com' is set on object 'Object Repository/ShoppingCart/input_email'
+
+2022-01-24 20:48:52 - [MESSAGE][PASSED] - Text 'anindy99@gmail.com' is set on object 'Object Repository/ShoppingCart/input_email'
+
+2022-01-24 20:48:52 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_notlp"), "087875751882"): Text '087875751882' is set on object 'Object Repository/ShoppingCart/input_notlp'
+
+2022-01-24 20:48:53 - [MESSAGE][PASSED] - Text '087875751882' is set on object 'Object Repository/ShoppingCart/input_notlp'
+
+2022-01-24 20:48:53 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_city"), "Jakarta Selatan"): Text 'Jakarta Selatan' is set on object 'Object Repository/ShoppingCart/input_city'
+
+2022-01-24 20:48:54 - [MESSAGE][PASSED] - Text 'Jakarta Selatan' is set on object 'Object Repository/ShoppingCart/input_city'
+
+2022-01-24 20:48:54 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_address"), "Jl. Damai 1"): Text 'Jl. Damai 1' is set on object 'Object Repository/ShoppingCart/input_address'
+
+2022-01-24 20:48:54 - [MESSAGE][PASSED] - Text 'Jl. Damai 1' is set on object 'Object Repository/ShoppingCart/input_address'
+
+2022-01-24 20:48:54 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_kodepos"), "12270"): Text '12270' is set on object 'Object Repository/ShoppingCart/input_kodepos'
+
+2022-01-24 20:48:55 - [MESSAGE][PASSED] - Text '12270' is set on object 'Object Repository/ShoppingCart/input_kodepos'
+
+2022-01-24 20:48:55 - [TEST_STEP][PASSED] - click(findTestObject("ShoppingCart/button_checkout")): Object: 'Object Repository/ShoppingCart/button_checkout' is clicked on
+
+2022-01-24 20:48:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ShoppingCart/button_checkout' is clicked on
+
+2022-01-24 20:48:56 - [TEST_STEP][PASSED] - click(findTestObject("Ordersummary/button_continue")): Object: 'Object Repository/Ordersummary/button_continue' is clicked on
+
+2022-01-24 20:48:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Ordersummary/button_continue' is clicked on
+
+2022-01-24 20:48:57 - [TEST_STEP][PASSED] - click(findTestObject("Ordersummary/select_payment")): Object: 'Object Repository/Ordersummary/select_payment' is clicked on
+
+2022-01-24 20:48:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Ordersummary/select_payment' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC08" time="17.019" classname="Test Cases/TC08" status="PASSED">
+         <system-out><![CDATA[2022-01-24 20:48:58 - [TEST_CASE][PASSED] - Test Cases/TC08: Test Cases/TC08
+
+2022-01-24 20:48:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-24 20:48:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-24 20:48:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-24 20:48:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-01-24 20:49:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-24 20:49:01 - [TEST_STEP][PASSED] - navigateToUrl("demo.midtrans.com"): Navigate to 'http://demo.midtrans.com' successfully
+
+2022-01-24 20:49:02 - [MESSAGE][PASSED] - Navigate to 'http://demo.midtrans.com' successfully
+
+2022-01-24 20:49:02 - [TEST_STEP][PASSED] - click(findTestObject("Home/button_buynow")): Object: 'Object Repository/Home/button_buynow' is clicked on
+
+2022-01-24 20:49:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/button_buynow' is clicked on
+
+2022-01-24 20:49:03 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_amount"), "120000"): Text '120000' is set on object 'Object Repository/ShoppingCart/input_amount'
+
+2022-01-24 20:49:04 - [MESSAGE][PASSED] - Text '120000' is set on object 'Object Repository/ShoppingCart/input_amount'
+
+2022-01-24 20:49:04 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_username"), "Fanny"): Text 'Fanny' is set on object 'Object Repository/ShoppingCart/input_username'
+
+2022-01-24 20:49:05 - [MESSAGE][PASSED] - Text 'Fanny' is set on object 'Object Repository/ShoppingCart/input_username'
+
+2022-01-24 20:49:05 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_email"), "anindy99@gmail.com"): Text 'anindy99@gmail.com' is set on object 'Object Repository/ShoppingCart/input_email'
+
+2022-01-24 20:49:06 - [MESSAGE][PASSED] - Text 'anindy99@gmail.com' is set on object 'Object Repository/ShoppingCart/input_email'
+
+2022-01-24 20:49:06 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_notlp"), "087875751882"): Text '087875751882' is set on object 'Object Repository/ShoppingCart/input_notlp'
+
+2022-01-24 20:49:07 - [MESSAGE][PASSED] - Text '087875751882' is set on object 'Object Repository/ShoppingCart/input_notlp'
+
+2022-01-24 20:49:07 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_city"), "Jakarta Selatan"): Text 'Jakarta Selatan' is set on object 'Object Repository/ShoppingCart/input_city'
+
+2022-01-24 20:49:08 - [MESSAGE][PASSED] - Text 'Jakarta Selatan' is set on object 'Object Repository/ShoppingCart/input_city'
+
+2022-01-24 20:49:08 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_address"), "Jl. Damai 1"): Text 'Jl. Damai 1' is set on object 'Object Repository/ShoppingCart/input_address'
+
+2022-01-24 20:49:08 - [MESSAGE][PASSED] - Text 'Jl. Damai 1' is set on object 'Object Repository/ShoppingCart/input_address'
+
+2022-01-24 20:49:08 - [TEST_STEP][PASSED] - setText(findTestObject("ShoppingCart/input_kodepos"), "12270"): Text '12270' is set on object 'Object Repository/ShoppingCart/input_kodepos'
+
+2022-01-24 20:49:09 - [MESSAGE][PASSED] - Text '12270' is set on object 'Object Repository/ShoppingCart/input_kodepos'
+
+2022-01-24 20:49:09 - [TEST_STEP][PASSED] - click(findTestObject("ShoppingCart/button_checkout")): Object: 'Object Repository/ShoppingCart/button_checkout' is clicked on
+
+2022-01-24 20:49:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ShoppingCart/button_checkout' is clicked on
+
+2022-01-24 20:49:10 - [TEST_STEP][PASSED] - click(findTestObject("Ordersummary/button_continue")): Object: 'Object Repository/Ordersummary/button_continue' is clicked on
+
+2022-01-24 20:49:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Ordersummary/button_continue' is clicked on
+
+2022-01-24 20:49:11 - [TEST_STEP][PASSED] - click(findTestObject("Ordersummary/select_payment")): Object: 'Object Repository/Ordersummary/select_payment' is clicked on
+
+2022-01-24 20:49:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Ordersummary/select_payment' is clicked on
+
+2022-01-24 20:49:12 - [TEST_STEP][PASSED] - setText(findTestObject("Ordersummary/input_cardnumber"), "4811 1111 1111 1114"): Text '4811 1111 1111 1114' is set on object 'Object Repository/Ordersummary/input_cardnumber'
+
+2022-01-24 20:49:13 - [MESSAGE][PASSED] - Text '4811 1111 1111 1114' is set on object 'Object Repository/Ordersummary/input_cardnumber'
+
+2022-01-24 20:49:13 - [TEST_STEP][PASSED] - setText(findTestObject("Ordersummary/input_expireddate"), "01/25"): Text '01/25' is set on object 'Object Repository/Ordersummary/input_expireddate'
+
+2022-01-24 20:49:14 - [MESSAGE][PASSED] - Text '01/25' is set on object 'Object Repository/Ordersummary/input_expireddate'
+
+2022-01-24 20:49:14 - [TEST_STEP][PASSED] - setText(findTestObject("Ordersummary/input_cvv"), "123"): Text '123' is set on object 'Object Repository/Ordersummary/input_cvv'
+
+2022-01-24 20:49:14 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Ordersummary/input_cvv'
+
+2022-01-24 20:49:14 - [TEST_STEP][PASSED] - click(findTestObject("Ordersummary/pay_now"), STOP_ON_FAILURE): Object: 'Object Repository/Ordersummary/pay_now' is clicked on
+
+2022-01-24 20:49:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Ordersummary/pay_now' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-24 20:47:56 - [TEST_SUITE][PASSED] - SP1: Test Cases/TC08]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
